@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #436850;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--main-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar .navbar-items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar .navbar-items a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 200ms;
+  align-items: center;
+}
+
+.navbar .navbar-items a:hover {
+  opacity: 0.5;
+}
+
+/* Home */
+.home, .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.home .home-text h3 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+/* about teks*/
+
+.about-text h3 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-right: 400px;
+  margin-bottom: 150px;
+}
+.about-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-left: 600px;
+  margin-top: -100px;
+  margin-right: 200px;
+}
+
+.about-img {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin: -400px 100px 150px 00px;
+}
+
+.home .home-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+/*about p*/
+
+.home .home-text a {
+  background-color: #436850;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10px;
+  transition-duration: 200ms;
+}
+
+.home .home-img img {
+  width: 100%;
+}
+
+/* about img */
+
+.home .home-text a:hover {
+  opacity: 0.5;
+}
+
+.kotak-text {
+  width: 500px;
+  height: 500px;
+
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-bottom: 150px;
+}
+
+.kotak-text h4 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  margin-left: -500px;
+  margin-top: -200px;
+  margin-right: -300px;
+  margin-bottom: 10px;
+}
+
+.kotak-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-left: -200px;
+  margin-top: -10px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/*kotak1*/
+
+.kotak1-text {
+  width: 300px;
+  height: 200px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 700px;
+  margin-left: 100px;
+  margin-top: -500px;
+  margin-right: 200px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+}
+
+.kotak1-text a {
+  background-color: #436850;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10px;
+  transition-duration: 200ms;
+  bottom: 130%;
+}
+
+.kotak1-img {
+  width: 50%;
+  height: 50%;
+
+  margin: auto;
+  margin-top: -280px;
+  margin-bottom: -70px;
+  display: block;
+}
+
+.kotak1-text h5 {
+  font-size: 30px;
+}
+
+.kotak1-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+/*kotak2*/
+
+.kotak2-text {
+  width: 300px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: -600px;
+  margin-left: 600px;
+  margin-top: -660px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.kotak1-img content {
+  width: 50%;
+}
+
+.kotak2-text h6 {
+  font-size: 30px;
+  margin-top: -1060px;
+  margin-bottom: -20px;
+}
+
+.kotak2-img {
+  width: 50%;
+  height: 50%;
+
+  margin: auto;
+  margin-top: -22px;
+  margin-bottom: -70px;
+  display: block;
+}
+
+.kotak2-img content {
+  width: 50%;
+}
+
+.kotak2-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: -420px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+}
+.kotak2-text a {
+  background-color: #436850;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  transition-duration: 200ms;
+  position: absolute;
+  right: 270;
+  left: 44%;
+  bottom: -130%;
+}
+
+/*kotak3*/
+
+.kotak3-text {
+  width: 300px;
+  height: 300px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 600px;
+  margin-left: 1100px;
+  margin-top: -1220px;
+  margin-right: 200px;
+  text-align: center;
+}
+.kotak3-text h2 {
+  font-size: 30px;
+  margin-top: -1050px;
+  margin-bottom: 44px;
+
+  font-family: bold;
+  border: 1px solid whitesmoke;
+}
+.kotak3-img {
+  width: 50%;
+  height: 50%;
+
+  margin: auto;
+  margin-top: -250px;
+  margin-bottom: -70px;
+  display: block;
+}
+.kotak3-text a {
+  background-color: #436850;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10px;
+  transition-duration: 200ms;
+  margin-bottom: 10px;
+  position: absolute;
+  right: 270;
+  left: 78%;
+  bottom: -130%;
+}
+
+.footer {
+  background-color: #436850;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200%;
+  margin: auto;
+  width: 100%;
+  height: 900%;
+}
+
+.footer-text h2 {
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+  gap: 60px;
+  flex-wrap: wrap-reverse;
+}
+.footer-items h2 {
+  font-size: 30;
+  align-items: stretch;
+}
+
+.footer-text p {
+  text-align: start;
+  text-decoration-color: white;
+}
+
+.footer-logo {
+  color: white;
+}
+/* Responsive */
+
+/*medium*/
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  .navbar,
+  .home .about {
+    flex-direction: column;
+  }
+
+  .home .home-text,
+  .about .about-text {
+    order: 2;
+  }
+
+  .home.home-img {
+    order: 1;
+  }
+
+  .home.home-text a h3,
+  .about .about-text h3 {
+    font-size: 32;
+  }
+
+  .home .home-text p,
+  .about .about-text p .kotak-text p, .kotak1-text p, .kotak2-text p, .kotak2-text p{
+    font-size: 16px;
+  }
+
+  .home .home-text a,
+  .about .about-text a,.kotak1-text a, .kotak2-text a, .kotak3-text a {
+    padding: 14px 28px;
+  }
+}
+
